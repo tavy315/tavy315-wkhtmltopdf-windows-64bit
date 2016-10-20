@@ -1,0 +1,37 @@
+{
+  "name": "tavy315/wkhtmltopdf-windows-64bit",
+  "description": "Convert html to pdf using webkit (qtwebkit). Static linked windows binary for 64 bit systems.",
+  "keywords": [
+    "pdf",
+    "thumbnail",
+    "snapshot",
+    "wkhtmltopdf",
+    "convert",
+    "binary",
+    "htmltopdf",
+    "htmltoimage"
+  ],
+  "license": "LGPL Version 3",
+  "homepage": "http://wkhtmltopdf.org/",
+  "authors": [
+    {
+      "name": "Octavian Matei",
+      "email": "octav@octav.name",
+      "homepage": "https://www.octav.name",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/tavy315/wkhtmltopdf-windows-64bit/issues?state=open"
+  },
+  "minimum-stability": "dev",
+  "bin": [
+    "bin/wkhtmltopdf.exe",
+    "bin/wkhtmltoimage.exe"
+  ],
+  "require": {
+  },
+  "suggest": {
+    "h4cc/wkhtmltopdf-amd64": "*"
+  }
+}
